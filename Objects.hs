@@ -1,3 +1,5 @@
+module Objects where
+
 data Object = Table
 			| Umbrella
 			| Drawer

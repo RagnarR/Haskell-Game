@@ -1,7 +1,7 @@
--- Локации
-data Location = Home | Friend'sYard | Garden | OtherRoom
-	deriving(Eq, Show, Read)
-	
+module Types where
+
+import Objects
+
 -- Направление движения
 data Direction = North | South | West | East
 	deriving(Eq, Show, Read)

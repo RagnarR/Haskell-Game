@@ -2,6 +2,7 @@ module Main where
 
 import Types
 import Objects
+import Locations
 
 describeLocation :: Location -> String
 describeLocation loc = show loc ++ "\n" ++
